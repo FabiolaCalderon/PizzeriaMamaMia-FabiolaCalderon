@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const Footer = () => {
     return(
 
-        <footer fluid className="bg-dark text-white py-2">
+        <footer className="bg-dark text-white py-2 fixed-bottom">
         <div className="container text-center">
           <p>© 2024. Pizzería Mamma Mía! - Todos los derechos reservados.</p>
         </div>
