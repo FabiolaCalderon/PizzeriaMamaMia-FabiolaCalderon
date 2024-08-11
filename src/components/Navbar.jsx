@@ -17,7 +17,7 @@ const MyNavbar = () => {
         <>
          <Navbar  bg="dark" data-bs-theme="dark" >
 
-        <Container className="d-flex justify-content-center">
+        <Container fluid className="d-flex justify-content-between">
         <Navbar.Brand href="#home" className="text-white">Pizzería Mamma Mia</Navbar.Brand>
         <Nav className="me-auto">
             <Nav.Link href="#Home" className="text-white"><Button variant="secondary">🍕Home</Button></Nav.Link>
@@ -35,7 +35,7 @@ const MyNavbar = () => {
         </Nav>
         </Container>
 
-        <Nav className="me-auto">
+        <Nav className="ms-auto">
             <Button variant="outline-primary"> 🛒  Total ${formatTotal(total)}  </Button>
         </Nav>
         
